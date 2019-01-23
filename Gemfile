@@ -5,10 +5,11 @@ gem 'dotenv'
 gem 'nokogiri' 
 gem 'pry' 
 gem 'rspec' 
-gem 'rubocop', '~> 0.57.2' 
-gem 'twitter' 
+gem 'rubocop', '~> 0.57.2'  
 require 'open-uri' 
 gem 'watir' 
+gem 'csv'
+
 # http://tutorials.jumpstartlab.com/topics/internal_testing/rspec_practices.html
 # group :test, :development do
 #   gem 'guard'
